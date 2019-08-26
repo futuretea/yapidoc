@@ -21,7 +21,7 @@ docker rm yapidoc
 - [FAQ](https://github.com/futuretea/yapidoc/wiki/FAQ)
 
 ## Related Projects
-- [YMFE/yapi](https://github.com/YMFE/yapi) - docker image for Yapi
+- [YMFE/yapi](https://github.com/YMFE/yapi)
 - [futuretea/go-yapi](https://godoc.org/github.com/futuretea/go-yapi) - Go client library for YMFE/Yapi
 - [futuretea/yapi](https://github.com/futuretea/yapi) - docker image for YMFE/Yapi
 
