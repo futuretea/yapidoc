@@ -14,5 +14,7 @@ test:
 	docker run -it --rm --net=host futuretea/yapidoc
 lint:
 	golangci-lint run
+release:
+	goreleaser
 clean:
 	rm -rf yapidoc
