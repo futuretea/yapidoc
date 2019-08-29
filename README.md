@@ -8,7 +8,9 @@ docker run -itd --name yapidoc -e YAPI_URL=your_yapi_url -p 8888:8888 futuretea/
 ```
 2. download doc from  the yapidoc server
 ```javascript
-http://127.0.0.1:8888/projects/your_project_token?tag=your_api_tag
+http://127.0.0.1:8888/projects/your_project_token
+http://127.0.0.1:8888/projects/your_project_token?format=json&tag=your_api_tag
+http://127.0.0.1:8888/projects/your_project_token?format=markdown&tag=your_api_tag
 ```
 
 3. stop the yapidoc server
